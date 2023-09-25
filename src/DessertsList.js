@@ -6,7 +6,7 @@ function DessertsList(props) {
     .sort((a, b) => { return a.calories - b.calories })
     .map(desert => {
       const itemtext = `${desert.name} - ${desert.calories} cal`
-      return <li key={index}>{itemtext}</li>
+      return <li>{itemtext}</li>
     })
   return <ul> { lowCalories}  </ul>;
   }

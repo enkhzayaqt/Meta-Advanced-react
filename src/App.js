@@ -57,6 +57,39 @@ function App() {
   };
 
   return (
+    <>
+      {/* start bootstrap practice */}
+    <div class="container">
+    <div class="row">
+        <div id="bio" class="col-12 col-lg-6 text-center">
+            <h1>Enkhzaya Munkhochir</h1>
+            <img src="photo.jpg" alt="profile picture" class="img-fluid"/>
+        </div>
+        <div id="more" class="col-12 col-lg-6">
+            <h2>Favorite Music Artists</h2>
+            <ul>
+                <li>Big Bang</li>
+                <li>Beatles</li>
+                <li>Epik High</li>
+                <li>Tablo</li>
+                <li>Justin Bieber</li>
+            </ul>
+            <h2>Favorite Films</h2>
+            <ol>
+                <li>West world</li>
+                <li>Orville</li>
+                <li>Orange is new black</li>
+                <li>Tablo</li>
+                <li>Justin Bieber</li>
+            </ol>
+            <a href="https://www.facebook.com/emilin.zaya" class="btn btn-primary">My Meta Profile</a>
+        </div>
+    </div>
+    <div class="row"></div>
+
+      </div>
+      {/* end of bootstrap practice */}
+
     <div className="App">
       {/* dessert list start */}
       <div>
@@ -120,6 +153,7 @@ function App() {
       </form>
       </div>
     </div>
+    </>
   );
 }
 
